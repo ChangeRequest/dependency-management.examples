@@ -1,0 +1,1 @@
+java -cp build\executableJarWithDependencies.jar;lib\argumentsParser.jar;. school.lemon.changerequest.java.dependency.management.examples.executableJarWithDependencies.HelloWorld "Valera, Petya, Sasha" VASYA

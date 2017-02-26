@@ -1,0 +1,4 @@
+REM javac -d build\classes src\main\java\school\lemon\changerequest\java\dependency\management\examples\executableJarWithDependencies\HelloWorld.java
+javac -d build\classes -cp "lib\argumentsParser.jar" src\main\java\school\lemon\changerequest\java\dependency\management\examples\executableJarWithDependencies\HelloWorld.java
+
+jar cfm build\executableJarWithDependencies.jar src\main\java\school\lemon\changerequest\java\dependency\management\examples\executableJarWithDependencies\manifestExample.mf -C build\classes school\lemon\changerequest\java\dependency\management\examples\executableJarWithDependencies\HelloWorld.class
