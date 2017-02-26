@@ -1,0 +1,3 @@
+rootProject.name = 'dependency-management.examples'
+include 'module1'
+
