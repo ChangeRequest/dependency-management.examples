@@ -8,6 +8,9 @@
     <name>Argument Parser</name>
     <description>An Argument parser library</description>
     <url>ttps://github.com/ChangeRequest/dependency-management.examples/tree/master/maven_examples/argument-parser</url>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
     <build>
         <plugins>
             <plugin>
